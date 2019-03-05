@@ -1,0 +1,56 @@
+version: '3.4'
+
+services:
+
+#### Nginx ###################################################
+  nginx:
+    container_name: nginx
+    image: 'nginx:latest'
+#    build:
+#      context: ./nginx/default
+#      args:
+#        - PUID=${PUID:-1001}
+#    volumes:
+#      - ./nginx/default:/opt/nginx
+#      - ./nginx/default:/etc/nginx/conf.d/
+
+#    env_file: .env
+
+    ports:
+      - "8080:80"
+      - "443:443"
+### HA Proxy #######################################
+  haproxy:
+    container_name: haproxy
+    image: 'dockercloud/haproxy:latest'
+#    links:
+#      - nginx
+    ports:
+      - '80:80'
+#    roles:
+#      - global
+#    volumes:
+#      - ./haproxy:/usr/local/etc/haproxy
+
+### Crontab Container #######################################
+#  crond:
+#    container_name: crone
+#    image: 'flaccid/docker-gc-crond:latest'
+#    environment:
+#      - HOST_SOURCE=${SERVER_NAME_BASE:-crontab_container}
+#    volumes:
+#      - /var/run/:/var/run/docker.sock:ro
+#
+### Volumes Setup ###########################################
+volumes:
+  haproxy:
+    driver: "local"
+  web:
+    driver: "local"
+
+networks:
+  default:
+    driver: bridge
+    ipam:
+      config:
+      - subnet: 172.25.0.0/24
