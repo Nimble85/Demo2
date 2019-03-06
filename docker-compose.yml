@@ -3,9 +3,9 @@ version: '3.4'
 services:
 
 #### Nginx ###################################################
-  nginx:
-    container_name: nginx
-    image: 'nginx:latest'
+#  nginx:
+#    container_name: nginx
+#    image: 'nginx:latest'
 #    build:
 #      context: ./nginx/default
 #      args:
@@ -16,9 +16,9 @@ services:
 
 #    env_file: .env
 
-    ports:
-      - "8080:80"
-      - "443:443"
+#    ports:
+#      - "8080:80"
+#      - "443:443"
 ### HA Proxy #######################################
   haproxy:
     container_name: haproxy
