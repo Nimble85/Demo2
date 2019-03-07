@@ -4,15 +4,29 @@ services:
 
 #### IIS ###################################################
   iis:
-    container_name: iis
-    image: 'mcr.microsoft.com/dotnet/core-nightly/runtime'
+    container_name: aspnetcore_sample
+#    image: 'mcr.microsoft.com/dotnet/core-nightly/runtime'
+    image: 'mcr.microsoft.com/dotnet/core/samples:aspnetapp'
 #    build:
 #      context: ./nginx/default
 #      args:
 #        - PUID=${PUID:-1001}
+
+
+###########Dosn`t_work((((((
 #    volumes:
-#      - ./nginx/default:/opt/nginx
-#      - ./nginx/default:/etc/nginx/conf.d/
+#      - ./simplestore/wwwroot:/app/wwwroot/
+#      - C:/docker/simplestore/simplestore/wwwroot:/app/wwwroot/
+#      - ${PWD}/simplestore/simplestore/wwwroot:/app/wwwroot/
+#      - //c/docker/simplestore/simplestore/wwwroot:/code
+#    volumes:
+#      - type: bind
+#        source: ./source_local_directory
+#        target: c:\target_directory
+#        bind:
+#          propagation: cached
+
+
 
 #    env_file: .env
 
@@ -38,12 +52,12 @@ services:
 #      - "8080:80"
 #      - "443:443"
 ### HA Proxy #######################################
-  haproxy:
-    container_name: haproxy
-    image: 'dockercloud/haproxy:latest'
+#  haproxy:
+#    container_name: haproxy
+#    image: 'dockercloud/haproxy:latest'
 #    links:
 #      - nginx
-    ports:
+#    ports:
       - '80:80'
 #    roles:
 #      - global
@@ -61,15 +75,15 @@ services:
 #      - /var/run/:/var/run/docker.sock:ro
 #
 ### Volumes Setup ###########################################
-volumes:
-  haproxy:
-    driver: "local"
-  web:
-    driver: "local"
+#volumes:
+#  haproxy:
+#    driver: "local"
+#  web:
+#    driver: "local"
 
 networks:
   default:
     driver: bridge
     ipam:
       config:
-      - subnet: 172.30.0.0/24
+      - subnet: 172.25.0.0/24
