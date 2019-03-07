@@ -3,18 +3,27 @@ version: '3.4'
 services:
 
 #### IIS ###################################################
-  iis:
-    container_name: aspnetcore_sample
+  aspnetcore_samples:
+    container_name: aspnetcore_samples
+### This image  Do not run!!(((
 #    image: 'mcr.microsoft.com/dotnet/core-nightly/runtime'
-    image: 'mcr.microsoft.com/dotnet/core/samples:aspnetapp'
-#    build:
-#      context: ./nginx/default
+
+### This image okey, but not volumes((( Try to build this
+#    image: 'mcr.microsoft.com/dotnet/core/samples:aspnetapp'
+
+
+    build:
+      context: ./dotnet
 #      args:
 #        - PUID=${PUID:-1001}
 
 
-###########Dosn`t_work((((((
+
 #    volumes:
+#      - .:/app/wwwroot
+#      - ./simplestore:/app/wwwroot
+###########Dosn`t_work((((((
+
 #      - ./simplestore/wwwroot:/app/wwwroot/
 #      - C:/docker/simplestore/simplestore/wwwroot:/app/wwwroot/
 #      - ${PWD}/simplestore/simplestore/wwwroot:/app/wwwroot/
@@ -25,6 +34,7 @@ services:
 #        target: c:\target_directory
 #        bind:
 #          propagation: cached
+
 
 
 
