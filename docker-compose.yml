@@ -2,52 +2,12 @@ version: '3.4'
 
 services:
 
-#### IIS ###################################################
-  aspnetcore_samples:
-    container_name: aspnetcore_samples
-### This image  Do not run!!(((
-#    image: 'mcr.microsoft.com/dotnet/core-nightly/runtime'
+#### WEB SERVER ONE ###################################################
 
-### This image okey, but not volumes((( Try to build this
-#    image: 'mcr.microsoft.com/dotnet/core/samples:aspnetapp'
-
-
-    build:
-      context: ./dotnet
-#      args:
-#        - PUID=${PUID:-1001}
-
-
-
-#    volumes:
-#      - .:/app/wwwroot
-#      - ./simplestore:/app/wwwroot
-###########Dosn`t_work((((((
-
-#      - ./simplestore/wwwroot:/app/wwwroot/
-#      - C:/docker/simplestore/simplestore/wwwroot:/app/wwwroot/
-#      - ${PWD}/simplestore/simplestore/wwwroot:/app/wwwroot/
-#      - //c/docker/simplestore/simplestore/wwwroot:/code
-#    volumes:
-#      - type: bind
-#        source: ./source_local_directory
-#        target: c:\target_directory
-#        bind:
-#          propagation: cached
-
-
-
-
-#    env_file: .env
-
-    ports:
-      - "8080:80"
-      - "443:443"
-
-#### Nginx ###################################################
-#  nginx:
-#    container_name: nginx
-#    image: 'nginx:latest'
+  web1:
+    container_name: web1
+    image: web1
+#    restart: always
 #    build:
 #      context: ./nginx/default
 #      args:
@@ -55,24 +15,69 @@ services:
 #    volumes:
 #      - ./nginx/default:/opt/nginx
 #      - ./nginx/default:/etc/nginx/conf.d/
-
+#
 #    env_file: .env
-
-#    ports:
-#      - "8080:80"
+    ports:
+      - "8081:80"
 #      - "443:443"
+
+
+#### WEB SERVER TWO ###################################################
+
+  web2:
+    container_name: web2
+    image: web1
+#    restart: always
+    #    build:
+    #      context: ./nginx/default
+    #      args:
+    #        - PUID=${PUID:-1001}
+    #    volumes:
+    #      - ./nginx/default:/opt/nginx
+    #      - ./nginx/default:/etc/nginx/conf.d/
+    #
+    #    env_file: .env
+    ports:
+      - "8082:80"
+#      - "443:443"
+
+
+#### MYSQL SERVER ###################################################
+
+  mysql:
+    container_name: mysql
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+#    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    #build:
+    #  context: ./msql
+    #      args:
+    #        - PUID=${PUID:-1001}
+    #    volumes:
+    #      - ./nginx/default:/opt/nginx
+    #      - ./nginx/default:/etc/nginx/conf.d/
+    #
+    #    env_file: .env
+    ports:
+      - "1433:1433"
+  #      - "443:443"
+
+
 ### HA Proxy #######################################
-#  haproxy:
-#    container_name: haproxy
-#    image: 'dockercloud/haproxy:latest'
-#    links:
-#      - nginx
-#    ports:
+  haproxy:
+    container_name: haproxy
+    image: 'dockercloud/haproxy:latest'
+    links:
+     - web1
+     - web2
+    ports:
       - '80:80'
 #    roles:
 #      - global
-#    volumes:
-#      - ./haproxy:/usr/local/etc/haproxy
+    volumes:
+      - ./haproxy:/usr/local/etc/haproxy
 
 
 ### Crontab Container #######################################
