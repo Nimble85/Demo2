@@ -6,7 +6,9 @@ services:
 
   web1:
     container_name: web1
-    image: web1
+#    image: dockercloud/hello-world
+    image: web8
+
 #    restart: always
 #    build:
 #      context: ./nginx/default
@@ -18,7 +20,7 @@ services:
 #
 #    env_file: .env
     ports:
-      - "8081:80"
+      - "81:80"
 #      - "443:443"
 
 
@@ -26,7 +28,8 @@ services:
 
   web2:
     container_name: web2
-    image: web1
+#    image: dockercloud/hello-world
+    image: web8
 #    restart: always
     #    build:
     #      context: ./nginx/default
@@ -38,7 +41,7 @@ services:
     #
     #    env_file: .env
     ports:
-      - "8082:80"
+      - "82:80"
 #      - "443:443"
 
 
@@ -67,17 +70,18 @@ services:
 
 ### HA Proxy #######################################
   haproxy:
+    build: ./haproxy
     container_name: haproxy
-    image: 'dockercloud/haproxy:latest'
-    links:
-     - web1
-     - web2
+#    image: 'dockercloud/haproxy:latest'
+#    links:
+#     - web1
+#     - web2
     ports:
-      - '80:80'
+      - "80:80"
 #    roles:
 #      - global
-    volumes:
-      - ./haproxy:/usr/local/etc/haproxy
+#    volumes:
+#      - ./haproxy:/usr/local/etc/haproxy
 
 
 ### Crontab Container #######################################
