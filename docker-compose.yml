@@ -9,20 +9,10 @@ services:
 #    image: dockercloud/hello-world
     image: web8
 
-#    restart: always
-#    build:
-#      context: ./nginx/default
-#      args:
-#        - PUID=${PUID:-1001}
-#    volumes:
-#      - ./nginx/default:/opt/nginx
-#      - ./nginx/default:/etc/nginx/conf.d/
-#
 #    env_file: .env
     ports:
       - "81:80"
 #      - "443:443"
-
 
 #### WEB SERVER TWO ###################################################
 
@@ -30,15 +20,7 @@ services:
     container_name: web2
 #    image: dockercloud/hello-world
     image: web8
-#    restart: always
-    #    build:
-    #      context: ./nginx/default
-    #      args:
-    #        - PUID=${PUID:-1001}
-    #    volumes:
-    #      - ./nginx/default:/opt/nginx
-    #      - ./nginx/default:/etc/nginx/conf.d/
-    #
+
     #    env_file: .env
     ports:
       - "82:80"
@@ -76,10 +58,9 @@ services:
 #    links:
 #     - web1
 #     - web2
+    env_file: .env
     ports:
       - "80:80"
-#    roles:
-#      - global
 #    volumes:
 #      - ./haproxy:/usr/local/etc/haproxy
 
