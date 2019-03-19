@@ -36,6 +36,8 @@ services:
 #    restart: always
     environment:
       MYSQL_ROOT_PASSWORD: example
+
+      
     #build:
     #  context: ./msql
     #      args:
@@ -44,7 +46,7 @@ services:
     #      - ./nginx/default:/opt/nginx
     #      - ./nginx/default:/etc/nginx/conf.d/
     #
-    #    env_file: .env
+    env_file: .env
     ports:
       - "1433:1433"
   #      - "443:443"
