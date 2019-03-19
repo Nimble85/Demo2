@@ -30,13 +30,16 @@ services:
 #### MYSQL SERVER ###################################################
 
   mysql:
+    build: ./mssql
     container_name: mysql
-    image: mysql
-    command: --default-authentication-plugin=mysql_native_password
+#    image: mysql
+#    command: --default-authentication-plugin=mysql_native_password
 #    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: example
+   
 
+#    environment:
+#      ENV ACCEPT_EULA=Y   
+#      ENV SA_PASSWORD=1qa@WS3ed
       
     #build:
     #  context: ./msql
@@ -46,7 +49,7 @@ services:
     #      - ./nginx/default:/opt/nginx
     #      - ./nginx/default:/etc/nginx/conf.d/
     #
-    env_file: .env
+#    env_file: .env
     ports:
       - "1433:1433"
   #      - "443:443"
