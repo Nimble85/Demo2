@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  web:
+    image: 'dockercloud/hello-world:latest'
+#    target_num_containers: 2
+    environment:
+      - TCP_PORTS=443
+      - EXCLUDE_PORTS=22
+  lb:
+    image: 'dockercloud/haproxy:latest'
+    links:
+      - web
+    ports:
+      - '80:80'
