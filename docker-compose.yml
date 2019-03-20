@@ -7,9 +7,8 @@ services:
   web1:
     container_name: web1
 #    image: dockercloud/hello-world
-    image: web8
-
-#    env_file: .env
+    image: web_3
+    env_file: .env
     ports:
       - "81:80"
 #      - "443:443"
@@ -19,13 +18,12 @@ services:
   web2:
     container_name: web2
 #    image: dockercloud/hello-world
-    image: web8
+    image: web_3
 
-    #    env_file: .env
+    env_file: .env
     ports:
       - "82:80"
 #      - "443:443"
-
 
 #### MYSQL SERVER ###################################################
 
@@ -36,13 +34,13 @@ services:
 #    command: --default-authentication-plugin=mysql_native_password
 #    restart: always
    
-
+#
 #    environment:
-#      ENV ACCEPT_EULA=Y   
-#      ENV SA_PASSWORD=1qa@WS3ed
+#      ENV ACCEPT_EULA=Y
+#      ENV SA_PASSWORD=VleDh%)yUB
       
     #build:
-    #  context: ./msql
+    #  context: ./mssql
     #      args:
     #        - PUID=${PUID:-1001}
     #    volumes:
@@ -70,21 +68,6 @@ services:
 #      - ./haproxy:/usr/local/etc/haproxy
 
 
-### Crontab Container #######################################
-#  crond:
-#    container_name: crone
-#    image: 'flaccid/docker-gc-crond:latest'
-#    environment:
-#      - HOST_SOURCE=${SERVER_NAME_BASE:-crontab_container}
-#    volumes:
-#      - /var/run/:/var/run/docker.sock:ro
-#
-### Volumes Setup ###########################################
-#volumes:
-#  haproxy:
-#    driver: "local"
-#  web:
-#    driver: "local"
 
 networks:
   default:
