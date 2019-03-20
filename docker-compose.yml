@@ -7,7 +7,7 @@ services:
   web1:
     container_name: web1
 #    image: dockercloud/hello-world
-    image: web_3
+    image: nimble85/web_1:latest
     env_file: .env
     ports:
       - "81:80"
@@ -18,12 +18,12 @@ services:
   web2:
     container_name: web2
 #    image: dockercloud/hello-world
-    image: web_3
+    image: nimble85/web_1:latest
 
     env_file: .env
     ports:
       - "82:80"
-#      - "443:443"
+#      - "443:443"docker tag
 
 #### MYSQL SERVER ###################################################
 
@@ -38,15 +38,7 @@ services:
 #    environment:
 #      ENV ACCEPT_EULA=Y
 #      ENV SA_PASSWORD=VleDh%)yUB
-      
-    #build:
-    #  context: ./mssql
-    #      args:
-    #        - PUID=${PUID:-1001}
-    #    volumes:
-    #      - ./nginx/default:/opt/nginx
-    #      - ./nginx/default:/etc/nginx/conf.d/
-    #
+
 #    env_file: .env
     ports:
       - "1433:1433"
@@ -55,12 +47,12 @@ services:
 
 ### HA Proxy #######################################
   haproxy:
-    build: ./haproxy
+#    build: ./haproxy
     container_name: haproxy
-#    image: 'dockercloud/haproxy:latest'
-#    links:
-#     - web1
-#     - web2
+    image: 'dockercloud/haproxy:latest'
+    links:
+     - web1
+     - web2
     env_file: .env
     ports:
       - "80:80"
