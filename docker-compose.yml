@@ -1,29 +1,60 @@
-version: '3.4'
+version: '2'
 
 services:
 
-#### WEB SERVER ONE ###################################################
+
+#  haproxy:
+#    build: ./haproxy
+#    container_name: haproxy
+#    ports:
+#      - "80:80"
+
+### HA Proxy #######################################
+  lb:
+#    build: ./haproxy
+#    container_name: haproxy
+    image: dockercloud/haproxy:staging
+    links:
+      - web1
+      - web2
+    #    env_file: .env
+    environment:
+      - DOCKER_HOST
+      - BALANCE
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 80:80
+
+#      - ./haproxy:/usr/local/etc/haproxy
+
+
+  #### WEB SERVER ONE ###################################################
 
   web1:
-    container_name: web1
-#    image: dockercloud/hello-world
-    image: nimble85/web_1:latest
-    env_file: .env
+#    container_name: web1
+    image: dockercloud/hello-world
+#    image: nimble85/web_1:latest
+#    env_file: .env
     ports:
-      - "81:80"
+      - 81:80
 #      - "443:443"
 
 #### WEB SERVER TWO ###################################################
 
   web2:
-    container_name: web2
-#    image: dockercloud/hello-world
-    image: nimble85/web_1:latest
+#    container_name: web2
+    image: dockercloud/hello-world
+#    image: nimble85/web_1:latest
 
-    env_file: .env
+#    env_file: .env
     ports:
-      - "82:80"
+      - 82:80
 #      - "443:443"docker tag
+
+
+
+
 
 #### MYSQL SERVER ###################################################
 
@@ -62,9 +93,9 @@ services:
 
 
 
-networks:
-  default:
-    driver: bridge
-    ipam:
-      config:
-      - subnet: 172.25.0.0/24
+#networks:
+#  default:
+#    driver: bridge
+#    ipam:
+#      config:
+#      - subnet: 172.25.0.0/24
