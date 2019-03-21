@@ -31,3 +31,8 @@ Update-Database
  
  проверить через MySQL Manager connection to DB
  
+ 
+ 
+ 
+ docker build -t web_2t .
+

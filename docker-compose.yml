@@ -34,7 +34,8 @@ services:
   web1:
 #    container_name: web1
 #    image: dockercloud/hello-world
-    image: nimble85/web_1:latest
+#    image: nimble85/web_1:latest
+    image: web_7t:latest
 #    env_file: .env
     ports:
       - 81:80
@@ -45,7 +46,8 @@ services:
   web2:
 #    container_name: web2
 #    image: dockercloud/hello-world
-    image: nimble85/web_1:latest
+#    image: nimble85/web_1:latest
+    image: web_7t:latest
 
 #    env_file: .env
     ports:
@@ -53,26 +55,24 @@ services:
 #      - "443:443"docker tag
 
 
-
-
-
 #### MYSQL SERVER ###################################################
 
-  mysql:
-    image: microsoft/mssql-server-linux:latest
-#    container_name: mysql
+  mssql:
+#    image: microsoft/mssql-server-linux:latest
+#    container_name: mssql
+    build: ./mssql
+    container_name: mssql
+#    image: mssql
+#    environment:
+#      - 'ACCEPT_EULA=Y'
+#      - 'SA_PASSWORD=VleDh23byUB'
 
-#    image: mysql
-    environment:
-      - 'ACCEPT_EULA=Y'
-      - 'SA_PASSWORD=VleDh%)yUB'
-
-    volumes:
-      - //d/Demo2:/Demo2
-    command: bin/bash -c "/opt/mssql/bin/sqlservr && sleep 30s && /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P VleDh%)yUB -i /Demo2/dbo.books.sql"
+#    volumes:
+#      - //d/Demo2:/Demo2
+#    command: bin/bash -c "/opt/mssql/bin/sqlservr && sleep 30s && /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P VleDh%)yUB -i /Demo2/dbo.books.sql"
 
 
-    env_file: .env
+#    env_file: .env
     ports:
       - 1433:1433
 
