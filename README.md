@@ -15,3 +15,6 @@ Update-Database
  
  docker build -t bookstoreweb1 .
  docker run -it --rm -p 8000:80 bookstoreweb1
+ 
+ 
+ 
