@@ -33,8 +33,8 @@ services:
 
   web1:
 #    container_name: web1
-    image: dockercloud/hello-world
-#    image: nimble85/web_1:latest
+#    image: dockercloud/hello-world
+    image: nimble85/web_1:latest
 #    env_file: .env
     ports:
       - 81:80
@@ -44,8 +44,8 @@ services:
 
   web2:
 #    container_name: web2
-    image: dockercloud/hello-world
-#    image: nimble85/web_1:latest
+#    image: dockercloud/hello-world
+    image: nimble85/web_1:latest
 
 #    env_file: .env
     ports:
@@ -58,23 +58,24 @@ services:
 
 #### MYSQL SERVER ###################################################
 
-#  mysql:
-#    build: ./mssql
+  mysql:
+    image: microsoft/mssql-server-linux:latest
 #    container_name: mysql
 
 #    image: mysql
-#    command: --default-authentication-plugin=mysql_native_password
-#    restart: always
-   
-#
-#    environment:
-#      ENV ACCEPT_EULA=Y
-#      ENV SA_PASSWORD=VleDh%)yUB
+    environment:
+      - 'ACCEPT_EULA=Y'
+      - 'SA_PASSWORD=VleDh%)yUB'
 
-#    env_file: .env
-#    ports:
-#      - "1433:1433"
-  #      - "443:443"
+    volumes:
+      - //d/Demo2:/Demo2
+    command: bin/bash -c "/opt/mssql/bin/sqlservr && sleep 30s && /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P VleDh%)yUB -i /Demo2/dbo.books.sql"
+
+
+    env_file: .env
+    ports:
+      - 1433:1433
+
 
 
 ### HA Proxy #######################################
