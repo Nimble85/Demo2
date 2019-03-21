@@ -27,9 +27,10 @@ services:
 
 #### MYSQL SERVER ###################################################
 
-  mysql:
-    build: ./mssql
-    container_name: mysql
+#  mysql:
+#    build: ./mssql
+#    container_name: mysql
+
 #    image: mysql
 #    command: --default-authentication-plugin=mysql_native_password
 #    restart: always
@@ -40,24 +41,24 @@ services:
 #      ENV SA_PASSWORD=VleDh%)yUB
 
 #    env_file: .env
-    ports:
-      - "1433:1433"
+#    ports:
+#      - "1433:1433"
   #      - "443:443"
 
 
 ### HA Proxy #######################################
-  haproxy:
-#    build: ./haproxy
-    container_name: haproxy
-    image: 'dockercloud/haproxy:latest'
-    links:
-     - web1
-     - web2
-    env_file: .env
-    ports:
-      - "80:80"
-#    volumes:
-#      - ./haproxy:/usr/local/etc/haproxy
+#  haproxy:
+##    build: ./haproxy
+#    container_name: haproxy
+#    image: 'dockercloud/haproxy:latest'
+#    links:
+#     - web1
+#     - web2
+#    env_file: .env
+#    ports:
+#      - "80:80"
+##    volumes:
+##      - ./haproxy:/usr/local/etc/haproxy
 
 
 
