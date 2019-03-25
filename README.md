@@ -36,7 +36,7 @@
 
 # STEP BY STEP
 
-## - [x] Installing Docker on Ubuntu 18.04
+* Installing Docker on Ubuntu 18.04
 
 > sudo apt update
 
@@ -54,7 +54,7 @@
 
 > sudo systemctl status docker
 
-## - [x] * Executing the Docker Command Without Sudo 
+* Executing the Docker Command Without Sudo 
 
 > sudo usermod -aG docker ${USER}
 
@@ -64,7 +64,17 @@
 
 > sudo usermod -aG docker username
 
-- [x] * Lounch project
+* Install git
+
+> apt-get update
+
+> apt-get install git-core
+
+> git --version
+
+> git pull 
+
+* Lounch project
 
 `` Going to folder with project
 ``
