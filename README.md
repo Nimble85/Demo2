@@ -34,17 +34,16 @@
 (link)
 
 
-STEP BY STEP
+# STEP BY STEP
 
 
 
 
 
-
+# QUESTIONS
+-[ ] How to create the BD
 Add-Migration init
 Update-Database
-
-
 
 
 
