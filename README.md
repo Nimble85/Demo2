@@ -20,13 +20,13 @@
 
 # TECHNOLOGY STACK
 
-- [ ] * Docker;	Docker-Compose;
-- [ ] * MicrosoftVisualBuildTools2017;
-- [ ] * Microsoft.NETFrimework.4.7.1; 	
-- [ ] * MicrosoftSQLServer2017; 			
-- [ ] * MicrosoftWebDeploy10.0.1973; 	
-- [ ] * Haproxyv1.7; 
-- [ ] * mssql server linux;
+- [x]  Docker;	Docker-Compose;
+- [x]  MicrosoftVisualBuildTools2017;
+- [x]  Microsoft.NETFrimework.4.7.1; 	
+- [x]  MicrosoftSQLServer2017; 			
+- [x]  MicrosoftWebDeploy10.0.1973; 	
+- [x]  Haproxyv1.7; 
+- [x]  mssql server linux;
 
 
 # DEPLOYMENT VIEW
