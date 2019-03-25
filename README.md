@@ -36,7 +36,7 @@
 
 # STEP BY STEP
 
-- [x] * Installing Docker on Ubuntu 18.04
+* - [x] Installing Docker on Ubuntu 18.04
 
 > sudo apt update
 
