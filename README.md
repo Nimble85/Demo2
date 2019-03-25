@@ -41,7 +41,7 @@
 
 
 # QUESTIONS
--[ ] How to create the BD
+- [ ] How to create the BD
 Add-Migration init
 Update-Database
 
