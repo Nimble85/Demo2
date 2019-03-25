@@ -64,6 +64,15 @@
 
 > sudo usermod -aG docker username
 
+- [x] Lounch project
+
+`` Going to folder with project
+``
+> docker-compose up --build
+
+``` wait some times and check result on adress```
+> http://localhost/books
+
 # QUESTIONS
 - [ ] How to create the BD
 ```
