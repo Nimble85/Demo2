@@ -36,7 +36,7 @@
 
 # STEP BY STEP
 
-- [x] Installing Docker
+- [x] Installing Docker on Ubuntu 18.04
 
 > sudo apt update
 
@@ -53,6 +53,16 @@
 > sudo apt install docker-ce
 
 > sudo systemctl status docker
+
+- [x] Executing the Docker Command Without Sudo 
+
+> sudo usermod -aG docker ${USER}
+
+> su - ${USER}
+
+> id -nG
+
+> sudo usermod -aG docker username
 
 # QUESTIONS
 - [ ] How to create the BD
