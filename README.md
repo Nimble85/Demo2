@@ -72,7 +72,7 @@
 
 > git --version
 
-> git pull 
+> git clone https://github.com/Nimble85/Demo2.git
 
 * Lounch project
 
