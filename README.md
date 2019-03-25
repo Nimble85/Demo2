@@ -18,18 +18,18 @@
 > You can relax and enjoy process
 
 
-TECHNOLOGY STACK
+# TECHNOLOGY STACK
 
-Docker;	Docker-Compose;
-MicrosoftVisualBuildTools2017;
-Microsoft.NETFrimework.4.7.1; 	
-MicrosoftSQLServer2017; 			
-MicrosoftWebDeploy10.0.1973; 	
-Haproxyv1.7; 
-mssql server linux;
+- [ ] *Docker;	Docker-Compose;
+- [ ] *MicrosoftVisualBuildTools2017;
+- [ ] *Microsoft.NETFrimework.4.7.1; 	
+- [ ] *MicrosoftSQLServer2017; 			
+- [ ] *MicrosoftWebDeploy10.0.1973; 	
+- [ ] *Haproxyv1.7; 
+- [ ] *mssql server linux;
 
 
-DEPLOYMENT VIEW
+# DEPLOYMENT VIEW
 
 (link)
 
