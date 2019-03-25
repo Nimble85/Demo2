@@ -36,7 +36,7 @@
 
 # STEP BY STEP
 
-* - [x] Installing Docker on Ubuntu 18.04
+## - [x] Installing Docker on Ubuntu 18.04
 
 > sudo apt update
 
@@ -54,7 +54,7 @@
 
 > sudo systemctl status docker
 
-- [x] * Executing the Docker Command Without Sudo 
+## - [x] * Executing the Docker Command Without Sudo 
 
 > sudo usermod -aG docker ${USER}
 
