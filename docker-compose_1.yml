@@ -2,46 +2,7 @@ version: '3.4'
 
 services:
 
-#### IIS ###################################################
-#  aspnetcore_samples:
-#    container_name: aspnetcore_samples
-### This image  Do not run!!(((
-#    image: 'mcr.microsoft.com/dotnet/core-nightly/runtime'
 
-### T#    volumes:
-#      - .:/app/wwwroot
-#      - ./simplestore:/app/wwwroot
-###########Dosn`t_work((((((
-
-#        bind:
-#          propagation: cached
-
-
-
-
-#    env_file: .env
-
-#    ports:
-#      - "8080:80"
-#      - "443:443"
-
-#### Nginx ###################################################
-#  nginx:
-#    container_name: nginx
-#    image: 'nginx:latest'
-#    build:
-#      context: ./nginx/default
-#      args:
-#        - PUID=${PUID:-1001}
-#    volumes:
-#      - ./nginx/default:/opt/nginx
-#      - ./nginx/default:/etc/nginx/conf.d/
-
-#    env_file: .env
-
-#    ports:
-#      - "8080:80"
-#      - "443:443"
 ### HA Proxy #######################################
   haproxy:
     container_name: haproxy
