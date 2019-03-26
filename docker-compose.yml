@@ -8,7 +8,8 @@ services:
     links:
       - websrv
     environment:
-      - COOKIE=SRV insert indirect nocache
+      - COOKIE=${COOKIE}
+    env_file: .env
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
@@ -19,17 +20,25 @@ services:
     build: app/BS1
     image: websrv
     environment:
-      - COOKIE=SRV insert indirect nocache
-      - ASPNETCORE_ENVIRONMENT=Development
-    ports: 
+      - COOKIE=${COOKIE}
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+      - USER_ID=${USER_ID}
+    env_file: .env
+    ports:
       - 8081-8090:80
     depends_on:
       - mssql
 
 ### MSSQL SERVER #####################################
   mssql:
-    build: ./mssql
     container_name: mssql
+    build:
+      context: ./mssql
+      args:
+        - ACCEPT_EULA=${ACCEPT_EULA}
+        - SA_PASSWORD=${SA_PASSWORD}
+        - USER_ID=${USER_ID}
+    env_file: .env
     volumes:
      - ./mssql/data:/var/opt/mssql/data/
     ports:
