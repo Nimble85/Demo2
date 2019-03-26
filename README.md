@@ -31,7 +31,7 @@
 
 # DEPLOYMENT VIEW
 
-(link)
+![image](https://github.com/Nimble85/Demo2/blob/master/Diagram.png)
 
 
 # STEP BY STEP
