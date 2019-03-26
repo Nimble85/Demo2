@@ -13,14 +13,6 @@ services:
 #      - ./simplestore:/app/wwwroot
 ###########Dosn`t_work((((((
 
-#      - ./simplestore/wwwroot:/app/wwwroot/
-#      - C:/docker/simplestore/simplestore/wwwroot:/app/wwwroot/
-#      - ${PWD}/simplestore/simplestore/wwwroot:/app/wwwroot/
-#      - //c/docker/simplestore/simplestore/wwwroot:/code
-#    volumes:
-#      - type: bind
-#        source: ./source_local_directory
-#        target: c:\target_directory
 #        bind:
 #          propagation: cached
 
