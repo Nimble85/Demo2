@@ -1,104 +1,34 @@
-version: '3.4'
+version: '2'
 
 services:
 
-#### WEB SERVER ONE ###################################################
-
-  web1:
-    container_name: web1
-    image: web1
-#    restart: always
-#    build:
-#      context: ./nginx/default
-#      args:
-#        - PUID=${PUID:-1001}
-#    volumes:
-#      - ./nginx/default:/opt/nginx
-#      - ./nginx/default:/etc/nginx/conf.d/
-#
-#    env_file: .env
-    ports:
-      - "8081:80"
-#      - "443:443"
-
-
-#### WEB SERVER TWO ###################################################
-
-  web2:
-    container_name: web2
-    image: web1
-#    restart: always
-    #    build:
-    #      context: ./nginx/default
-    #      args:
-    #        - PUID=${PUID:-1001}
-    #    volumes:
-    #      - ./nginx/default:/opt/nginx
-    #      - ./nginx/default:/etc/nginx/conf.d/
-    #
-    #    env_file: .env
-    ports:
-      - "8082:80"
-#      - "443:443"
-
-
-#### MYSQL SERVER ###################################################
-
-  mysql:
-    container_name: mysql
-    image: mysql
-    command: --default-authentication-plugin=mysql_native_password
-#    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: example
-    #build:
-    #  context: ./msql
-    #      args:
-    #        - PUID=${PUID:-1001}
-    #    volumes:
-    #      - ./nginx/default:/opt/nginx
-    #      - ./nginx/default:/etc/nginx/conf.d/
-    #
-    #    env_file: .env
-    ports:
-      - "1433:1433"
-  #      - "443:443"
-
-
-### HA Proxy #######################################
-  haproxy:
-    container_name: haproxy
-    image: 'dockercloud/haproxy:latest'
+  lb:
+    image: dockercloud/haproxy
     links:
-     - web1
-     - web2
-    ports:
-      - '80:80'
-#    roles:
-#      - global
+      - websrv
+    environment:
+      - COOKIE=SRV insert indirect nocache
     volumes:
-      - ./haproxy:/usr/local/etc/haproxy
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 80:80
 
-
-### Crontab Container #######################################
-#  crond:
-#    container_name: crone
-#    image: 'flaccid/docker-gc-crond:latest'
-#    environment:
-#      - HOST_SOURCE=${SERVER_NAME_BASE:-crontab_container}
-#    volumes:
-#      - /var/run/:/var/run/docker.sock:ro
-#
-### Volumes Setup ###########################################
-#volumes:
-#  haproxy:
-#    driver: "local"
-#  web:
-#    driver: "local"
-
-networks:
-  default:
-    driver: bridge
-    ipam:
-      config:
-      - subnet: 172.25.0.0/24
+  websrv:
+    build: ./web/BS1/BS1
+    image: websrv
+    environment:
+      - COOKIE=SRV insert indirect nocache
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports: 
+      - 8081-8090:80
+    depends_on:
+      - sqlserver
+  
+  sqlserver:    
+    build: ./db
+    container_name: DBsrv
+    volumes:
+#     - D:\Demo21:/var/opt/mssql/data/
+     - ./db/data:/var/opt/mssql/data/
+    ports:
+      - '1433:1433'
