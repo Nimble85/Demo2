@@ -8,18 +8,7 @@ services:
 ### This image  Do not run!!(((
 #    image: 'mcr.microsoft.com/dotnet/core-nightly/runtime'
 
-### This image okey, but not volumes((( Try to build this
-#    image: 'mcr.microsoft.com/dotnet/core/samples:aspnetapp'
-
-
-#    build:
-#      context: ./dotnet
-#      args:
-#        - PUID=${PUID:-1001}
-
-
-
-#    volumes:
+### T#    volumes:
 #      - .:/app/wwwroot
 #      - ./simplestore:/app/wwwroot
 ###########Dosn`t_work((((((
