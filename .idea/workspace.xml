@@ -2,1007 +2,135 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73bbb421-e636-4fd1-ab51-855e752898c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/data/BS1Context.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/data/dbo.books-all.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled Diagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/.vs/bookstore/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/.vs/bookstore/v15/Server/sqlite3/db.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/.vs/bookstore/v15/Server/sqlite3/storage.ide" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Class.csStudentContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Controllers/HomeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Department.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Models/ErrorViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Student.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Views/Shared/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Views/Shared/_CookieConsentPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Views/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Views/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/Views/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/bin/Debug/netcoreapp2.2/bookstore.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/bin/Debug/netcoreapp2.2/bookstore.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/bin/Debug/netcoreapp2.2/bookstore.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/bookstore.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/bookstore.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/bookstore.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/bookstore.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/bookstore.RazorAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/bookstore.RazorAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/bookstore.RazorCoreGenerate.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/bookstore.RazorTargetAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/bookstore.RazorTargetAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/bookstore.TagHelpers.input.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/bookstore.TagHelpers.output.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/bookstore.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/bookstore.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/bookstore.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/Debug/netcoreapp2.2/bookstore.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/bookstore.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/bookstore.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/bookstore.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/js/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/bookstore/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/.vs/bookstorev2/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/.vs/bookstorev2/v15/Server/sqlite3/db.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/.vs/bookstorev2/v15/Server/sqlite3/storage.ide" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Controllers/HomeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Controllers/StudentsController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Data/bookstorev2Context.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Migrations/20190315134553_init.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Migrations/20190315134553_init.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Migrations/bookstorev2ContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Models/ErrorViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Students.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Views/Shared/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Views/Shared/_CookieConsentPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Views/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Views/Students/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Views/Students/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Views/Students/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Views/Students/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Views/Students/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Views/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/Views/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/bin/Debug/netcoreapp2.2/bookstorev2.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/bin/Debug/netcoreapp2.2/bookstorev2.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/bin/Debug/netcoreapp2.2/bookstorev2.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/bin/Debug/netcoreapp2.2/bookstorev2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/bin/Debug/netcoreapp2.2/bookstorev2.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/bin/Debug/netcoreapp2.2/bookstorev2.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/bin/Debug/netcoreapp2.2/bookstorev2.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/bookstorev2.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/bookstorev2.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Container/ContainerDevelopmentMode.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Container/OperatingSystemName.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Container/RelativeOutputAssemblyPath.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Container/TargetFramework.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/Razor/Views/Students/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/Razor/Views/Students/Delete.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/Razor/Views/Students/Details.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/Razor/Views/Students/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/Razor/Views/Students/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.RazorAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.RazorAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.RazorCoreGenerate.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.RazorTargetAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.RazorTargetAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.TagHelpers.input.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.TagHelpers.output.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/Debug/netcoreapp2.2/bookstorev2.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/bookstorev2.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/bookstorev2.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/bookstorev2.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/js/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev2/bookstorev2/bookstorev2/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/.vs/bookstorev3/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/.vs/bookstorev3/v15/Server/sqlite3/db.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/.vs/bookstorev3/v15/Server/sqlite3/storage.ide" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/.vs/config/applicationhost.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Controllers/HomeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Controllers/StudentsController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Data/bookstorev3Context.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Migrations/20190315135430_init.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Migrations/20190315135430_init.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Migrations/20190315135446_init2.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Migrations/20190315135446_init2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Migrations/bookstorev3ContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Models/ErrorViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Students.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Views/Shared/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Views/Shared/_CookieConsentPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Views/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Views/Students/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Views/Students/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Views/Students/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Views/Students/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Views/Students/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Views/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/Views/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/bookstorev3.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/bookstorev3.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Container/AdditionalProbingPaths.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Container/ContainerDevelopmentMode.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Container/ContainerId.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Container/ContainerRunContext.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Container/ImageBuildContext.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Container/ImageId.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Container/OperatingSystemName.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Container/RelativeOutputAssemblyPath.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Container/TargetFramework.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Students/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Students/Delete.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Students/Details.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Students/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Students/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.RazorAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.RazorAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.RazorCoreGenerate.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.RazorTargetAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.RazorTargetAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.TagHelpers.input.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.TagHelpers.output.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/bookstorev3.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/bookstorev3.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/bookstorev3.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/js/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev3/bookstorev3/bookstorev3/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/.vs/bookstorev3/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/.vs/bookstorev3/v15/Server/sqlite3/db.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/.vs/bookstorev3/v15/Server/sqlite3/storage.ide" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/.vs/bookstorev3/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/.vs/bookstorev3/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Controllers/HomeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Controllers/booksController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Data/bookstorev3Context.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Migrations/20190319071905_init.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Migrations/20190319071905_init.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Migrations/bookstorev3ContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Models/ErrorViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Views/Shared/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Views/Shared/_CookieConsentPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Views/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Views/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Views/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Views/books/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Views/books/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Views/books/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Views/books/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/Views/books/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/bin/Debug/netcoreapp2.2/bookstorev3.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/books.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/bookstorev3.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/bookstorev3.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Container/AdditionalProbingPaths.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Container/ContainerDevelopmentMode.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Container/ContainerId.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Container/ContainerRunContext.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Container/ImageBuildContext.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Container/ImageId.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Container/OperatingSystemName.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Container/RelativeOutputAssemblyPath.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Container/TargetFramework.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/books/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/books/Delete.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/books/Details.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/books/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/Razor/Views/books/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.RazorAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.RazorAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.RazorCoreGenerate.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.RazorTargetAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.RazorTargetAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.TagHelpers.input.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.TagHelpers.output.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/Debug/netcoreapp2.2/bookstorev3.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/bookstorev3.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/bookstorev3.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/bookstorev3.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/js/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev4/bookstorev3/bookstorev3/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/.vs/bookstorev5/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/.vs/bookstorev5/v15/Server/sqlite3/db.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/.vs/bookstorev5/v15/Server/sqlite3/storage.ide" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Controllers/HomeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Controllers/booksController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Data/bookstorev5Context.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Migrations/20190319072412_init222.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Migrations/20190319072412_init222.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Migrations/bookstorev5ContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Models/ErrorViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Views/Shared/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Views/Shared/_CookieConsentPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Views/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Views/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Views/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Views/books/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Views/books/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Views/books/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Views/books/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/Views/books/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/bin/Debug/netcoreapp2.2/bookstorev5.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/bin/Debug/netcoreapp2.2/bookstorev5.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/bin/Debug/netcoreapp2.2/bookstorev5.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/bin/Debug/netcoreapp2.2/bookstorev5.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/bin/Debug/netcoreapp2.2/bookstorev5.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/bin/Debug/netcoreapp2.2/bookstorev5.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/bin/Debug/netcoreapp2.2/bookstorev5.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/books.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/bookstorev5.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/bookstorev5.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Container/AdditionalProbingPaths.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Container/ContainerDevelopmentMode.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Container/ImageBuildContext.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Container/ImageId.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Container/OperatingSystemName.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Container/RelativeOutputAssemblyPath.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Container/TargetFramework.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/Razor/Views/books/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/Razor/Views/books/Delete.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/Razor/Views/books/Details.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/Razor/Views/books/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/Razor/Views/books/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.RazorAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.RazorAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.RazorCoreGenerate.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.RazorTargetAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.RazorTargetAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.TagHelpers.input.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.TagHelpers.output.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/Debug/netcoreapp2.2/bookstorev5.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/bookstorev5.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/bookstorev5.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/bookstorev5.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/js/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev5/bookstorev5/bookstorev5/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/.vs/bookstorev6/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/.vs/bookstorev6/v15/Server/sqlite3/db.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/.vs/bookstorev6/v15/Server/sqlite3/storage.ide" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Controllers/HomeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Controllers/booksController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Data/bookstorev6Context.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Migrations/20190319073147_ini4343.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Migrations/20190319073147_ini4343.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Migrations/bookstorev6ContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Models/ErrorViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Views/Shared/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Views/Shared/_CookieConsentPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Views/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Views/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Views/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Views/books/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Views/books/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Views/books/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Views/books/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/Views/books/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/book.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/bookstorev6.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/bookstorev6.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Container/AdditionalProbingPaths.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Container/ContainerDevelopmentMode.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Container/ImageBuildContext.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Container/ImageId.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Container/OperatingSystemName.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Container/RelativeOutputAssemblyPath.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Container/TargetFramework.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/books/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/books/Delete.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/books/Details.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/books/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/books/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.RazorAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.RazorAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.RazorCoreGenerate.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.RazorTargetAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.RazorTargetAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.TagHelpers.input.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.TagHelpers.output.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/bookstorev6.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/bookstorev6.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/bookstorev6.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/js/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev6/bookstorev6/bookstorev6/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/.vs/bookstorev6/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/.vs/bookstorev6/v15/Server/sqlite3/db.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/.vs/bookstorev6/v15/Server/sqlite3/storage.ide" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Controllers/HomeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Controllers/booksController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Data/bookstorev6Context.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Migrations/20190319073521_init4.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Migrations/20190319073521_init4.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Migrations/bookstorev6ContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Models/ErrorViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Views/Shared/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Views/Shared/_CookieConsentPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Views/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Views/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Views/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Views/books/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Views/books/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Views/books/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Views/books/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/Views/books/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/bin/Debug/netcoreapp2.2/bookstorev6.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/books.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/bookstorev6.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/bookstorev6.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Container/ContainerDevelopmentMode.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Container/OperatingSystemName.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Container/RelativeOutputAssemblyPath.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Container/TargetFramework.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/books/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/books/Delete.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/books/Details.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/books/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/Razor/Views/books/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.RazorAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.RazorAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.RazorCoreGenerate.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.RazorTargetAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.RazorTargetAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.TagHelpers.input.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.TagHelpers.output.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/Debug/netcoreapp2.2/bookstorev6.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/bookstorev6.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/bookstorev6.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/bookstorev6.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/js/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstorev7/bookstorev6/bookstorev6/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/.vs/BS1/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/.vs/BS1/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/.vs/BS1/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/.vs/BS1/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/.vs/BS1/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/.vs/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/BS1.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/BS1.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Controllers/booksController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Data/BS1Context.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Dockerfiledotnet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Migrations/20190322121937_init.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Migrations/20190322121937_init.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Migrations/20190322124539_init1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Migrations/20190322124539_init1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Migrations/20190325163510_init5.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Migrations/20190325163510_init5.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Migrations/BS1ContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Views/Home/About.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Views/Home/Contact.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Views/books/Create.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Views/books/Delete.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Views/books/Details.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Views/books/Edit.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/Views/books/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/bin/Debug/netcoreapp2.0/BS1.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/bin/Debug/netcoreapp2.0/BS1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/bin/Debug/netcoreapp2.0/BS1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/bin/Debug/netcoreapp2.0/BS1.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/bin/Debug/netcoreapp2.0/BS1.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/books.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/bundleconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/BS1.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/BS1.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/BS1.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Container/AdditionalProbingPaths.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Container/ContainerDevelopmentMode.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Container/ContainerId.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Container/ContainerRunContext.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Container/ImageBuildContext.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Container/ImageId.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Container/OperatingSystemName.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Container/RelativeOutputAssemblyPath.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Container/TargetFramework.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Debug/netcoreapp2.0/BS1.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Debug/netcoreapp2.0/BS1.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Debug/netcoreapp2.0/BS1.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Debug/netcoreapp2.0/BS1.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Debug/netcoreapp2.0/BS1.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Debug/netcoreapp2.0/BS1.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Debug/netcoreapp2.0/BS1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/Debug/netcoreapp2.0/BS1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/css/site.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/images/banner1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/images/banner2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/images/banner3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/images/banner4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/js/site.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/bootstrap/dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery-validation/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BS1/BS1/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/BS1Context.bak" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/BS1Context.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/BS1Context.bak" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/data/BS1Context.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/BS1Context.mdf" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/data/BS1Context.mdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/BS1Context_log.ldf" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/data/BS1Context_log.ldf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/dbo.books-all.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/data/dbo.books-all.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/master.mdf" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/data/master.mdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/mastlog.ldf" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/data/mastlog.ldf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/model.mdf" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/data/model.mdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/modellog.ldf" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/data/modellog.ldf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/msdbdata.mdf" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/data/msdbdata.mdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/msdblog.ldf" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/data/msdblog.ldf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/tempdb.mdf" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/data/tempdb.mdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data/templog.ldf" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/data/templog.ldf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/dbo.books-all.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mssql/dbo.books-all.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/css/site.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/images/banner1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/images/banner2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/images/banner3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/js/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/js/site.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/bootstrap/dist/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery-validation/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msql/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/.vs/config/applicationhost.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/.vs/simplestore/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/.vs/simplestore/v15/Server/sqlite3/db.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/.vs/simplestore/v15/Server/sqlite3/storage.ide" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/.vs/simplestore/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/.vs/simplestore/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Controllers/HomeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Controllers/booksController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Data/simplestoreContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Migrations/20190306200739_init.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Migrations/20190306200739_init.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Migrations/simplestoreContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Models/ErrorViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Models/books.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/Home/About.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/Home/Contact.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/Shared/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/Shared/_CookieConsentPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/books/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/books/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/books/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/books/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/Views/books/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/bin/Debug/netcoreapp2.1/simplestore.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/bin/Debug/netcoreapp2.1/simplestore.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/bin/Debug/netcoreapp2.1/simplestore.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/bin/Debug/netcoreapp2.1/simplestore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/bin/Debug/netcoreapp2.1/simplestore.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/bin/Debug/netcoreapp2.1/simplestore.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/bin/Debug/netcoreapp2.1/simplestore.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/Home/About.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/Home/Contact.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/books/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/books/Delete.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/books/Details.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/books/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/Razor/Views/books/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.RazorAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.RazorAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.RazorCoreGenerate.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.RazorTargetAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.RazorTargetAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.TagHelpers.input.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.TagHelpers.output.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.Views.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.Views.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/Debug/netcoreapp2.1/simplestore.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/simplestore.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/simplestore.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/obj/simplestore.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/simplestore.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/simplestore.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/css/site.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/images/banner1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/images/banner2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/images/banner3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/js/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/js/site.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/bootstrap/dist/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery-validation/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplestore/simplestore/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose_0.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose_0.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose_1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose_1.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1011,28 +139,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="478">
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/haproxy/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/BS1/appsettings.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mssql/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose_1.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="63" column="2" selection-start-line="63" selection-end-line="63" selection-end-column="52" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -1043,8 +194,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/db/Dockerfile" />
+        <option value="$PROJECT_DIR$/app/BS1/appsettings.json" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -1069,13 +221,7 @@
             <path>
               <item name="docker" type="b2602c69:ProjectViewProjectNode" />
               <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="mssql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1089,6 +235,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IDE\SoftServe\docker\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IDE\SoftServe\docker\db\data" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1112,55 +266,80 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553585128824</updated>
-      <workItem from="1553585130062" duration="676000" />
+      <workItem from="1553585130062" duration="1641000" />
+      <workItem from="1553588328118" duration="2013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="676000" />
+    <option name="totallyTimeSpent" value="3654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24593717" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/docker-compose_1.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="1071">
+          <caret line="63" column="2" selection-start-line="63" selection-end-line="63" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose_1.yml">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="478">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haproxy/haproxy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haproxy/haproxy_old.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haproxy/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/BS1/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mssql/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

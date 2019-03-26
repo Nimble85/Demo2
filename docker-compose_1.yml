@@ -88,7 +88,7 @@ services:
 #volumes:
 #  haproxy:
 #    driver: "local"
-#  web:
+#  app:
 #    driver: "local"
 
 networks:

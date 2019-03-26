@@ -2,7 +2,8 @@ version: '2'
 
 services:
 
-  lb:
+### HA Proxy #######################################
+  haproxy:
     image: dockercloud/haproxy
     links:
       - websrv
@@ -13,8 +14,9 @@ services:
     ports:
       - 80:80
 
+### WEB APP #######################################
   websrv:
-    build: ./web/BS1/BS1
+    build: app/BS1
     image: websrv
     environment:
       - COOKIE=SRV insert indirect nocache
@@ -22,13 +24,13 @@ services:
     ports: 
       - 8081-8090:80
     depends_on:
-      - sqlserver
-  
-  sqlserver:    
-    build: ./db
-    container_name: DBsrv
+      - mssql
+
+### MSSQL SERVER #####################################
+  mssql:
+    build: ./mssql
+    container_name: mssql
     volumes:
-#     - D:\Demo21:/var/opt/mssql/data/
-     - ./db/data:/var/opt/mssql/data/
+     - ./mssql/data:/var/opt/mssql/data/
     ports:
       - '1433:1433'
